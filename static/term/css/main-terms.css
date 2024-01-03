@@ -1,0 +1,10 @@
+.main-terms-p, .main-termsearch-p{
+    /* background-color: aquamarine; */
+    /* border: 1px solid royalblue; */
+    text-align: left;
+    text-align: -webkit-left;
+    text-align: -moz-left;
+    text-indent: 20%;
+    margin-bottom: 0px;
+    /* margin: auto; */
+}

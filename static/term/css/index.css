@@ -1,0 +1,220 @@
+@import url(grid.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+/* @import url(articles.css); */
+@import url(contacts.css);
+@import url(goal.css);
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+ /* a{
+    color: #0061ad;
+    text-decoration: none;
+    background-color:transparent;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+} */
+
+a:hover{
+    /* color:#fff; */
+    /* background-color: #0061ad; */
+    text-decoration:none;
+}
+a:not([href]){
+    color:inherit;
+    text-decoration:none;
+}
+a:not([href]):hover{
+    color:inherit;
+    text-decoration:none;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+    height: auto;
+}
+
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto; 
+}
+
+/* p, pre, code {
+    white-space:pre-wrap;
+    word-wrap: anywhere;
+    text-align: justify;
+    width: 100%;
+    
+} */
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  
+  
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: bold;
+    /* width: fit-content; */
+    
+}
+
+
+.container{
+    display: grid;
+    width:100%;
+    max-width: 1200px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+
+@media (min-width:200px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:300px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:420px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:576px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:768px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:992px){
+    .container, img, .term-description{
+        max-width: 90%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}
+@media (min-width:1200px){
+    .container, img, .term-description{
+        max-width:95%;
+    }
+    p, pre, code, div{
+        max-width: 100%;
+    }
+}

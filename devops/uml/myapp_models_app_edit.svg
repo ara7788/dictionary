@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1955pt" height="977pt" viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+  <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 973)">
+    <title>model_graph</title>
+    <path fill="white" stroke="none" d="M -4 4 L -4 -973 L 1196 -973 C 1086.131 -949.236 1087.126 27.549 1196 4 L -4 4 Z" style=""/>
+    <g id="clust1" class="cluster">
+      <title>cluster_django_contrib_admin</title>
+      <path fill="none" stroke="#698b22" d="M645.27,-777.75C645.27,-777.75 879.27,-777.75 879.27,-777.75 885.27,-777.75 891.27,-783.75 891.27,-789.75 891.27,-789.75 891.27,-944 891.27,-944 891.27,-950 885.27,-956 879.27,-956 879.27,-956 645.27,-956 645.27,-956 639.27,-956 633.27,-950 633.27,-944 633.27,-944 633.27,-789.75 633.27,-789.75 633.27,-783.75 639.27,-777.75 645.27,-777.75"/>
+      <text text-anchor="start" x="671.9" y="-939.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="694.4" y="-939.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="716.9" y="-939.5" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">django.contrib.admin</text>
+      <text text-anchor="start" x="807.65" y="-939.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="830.15" y="-939.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g>
+      <g id="clust2" class="cluster" transform="matrix(1, 0, 0, 1, 0, 195.000003)">
+        <title>cluster_onlinehelper</title>
+        <path fill="none" stroke="#698b22" d="M911.27,-764.75C911.27,-764.75 1143.27,-764.75 1143.27,-764.75 1149.27,-764.75 1155.27,-770.75 1155.27,-776.75 1155.27,-776.75 1155.27,-957 1155.27,-957 1155.27,-963 1149.27,-969 1143.27,-969 1143.27,-969 911.27,-969 911.27,-969 905.27,-969 899.27,-963 899.27,-957 899.27,-957 899.27,-776.75 899.27,-776.75 899.27,-770.75 905.27,-764.75 911.27,-764.75"/>
+        <text text-anchor="start" x="956.02" y="-952.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+        <text text-anchor="start" x="978.52" y="-952.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+        <text text-anchor="start" x="1001.02" y="-952.5" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">onlinehelper</text>
+        <text text-anchor="start" x="1053.52" y="-952.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+        <text text-anchor="start" x="1076.02" y="-952.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      </g>
+      <g>
+        <g id="clust4" class="cluster" transform="matrix(1, 0, 0, 1, -605.078134, 590.153695)">
+          <title>cluster_article</title>
+          <path fill="none" stroke="#698b22" d="M1547.27,-790.75C1547.27,-790.75 1715.27,-790.75 1715.27,-790.75 1721.27,-790.75 1727.27,-796.75 1727.27,-802.75 1727.27,-802.75 1727.27,-931 1727.27,-931 1727.27,-937 1721.27,-943 1715.27,-943 1715.27,-943 1547.27,-943 1547.27,-943 1541.27,-943 1535.27,-937 1535.27,-931 1535.27,-931 1535.27,-802.75 1535.27,-802.75 1535.27,-796.75 1541.27,-790.75 1547.27,-790.75"/>
+          <text text-anchor="start" x="1572.77" y="-926.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1595.27" y="-926.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1617.77" y="-926.5" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">article</text>
+          <text text-anchor="start" x="1644.77" y="-926.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1667.27" y="-926.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+        </g>
+        <g id="clust6" class="cluster" transform="matrix(1, 0, 0, 1, -221.270008, 738.500011)">
+          <title>cluster_api</title>
+          <path fill="none" stroke="#698b22" d="M1175.27,-810.25C1175.27,-810.25 1315.27,-810.25 1315.27,-810.25 1321.27,-810.25 1327.27,-816.25 1327.27,-822.25 1327.27,-822.25 1327.27,-911.5 1327.27,-911.5 1327.27,-917.5 1321.27,-923.5 1315.27,-923.5 1315.27,-923.5 1175.27,-923.5 1175.27,-923.5 1169.27,-923.5 1163.27,-917.5 1163.27,-911.5 1163.27,-911.5 1163.27,-822.25 1163.27,-822.25 1163.27,-816.25 1169.27,-810.25 1175.27,-810.25"/>
+          <text text-anchor="start" x="1193.9" y="-907" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1216.4" y="-907" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1238.9" y="-907" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">api</text>
+          <text text-anchor="start" x="1251.65" y="-907" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1274.15" y="-907" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+        </g>
+        <g id="clust7" class="cluster" transform="matrix(1, 0, 0, 1, -411.000006, -5)">
+          <title>cluster_lection</title>
+          <path fill="none" stroke="#698b22" d="M1347.27,-784.25C1347.27,-784.25 1515.27,-784.25 1515.27,-784.25 1521.27,-784.25 1527.27,-790.25 1527.27,-796.25 1527.27,-796.25 1527.27,-937.5 1527.27,-937.5 1527.27,-943.5 1521.27,-949.5 1515.27,-949.5 1515.27,-949.5 1347.27,-949.5 1347.27,-949.5 1341.27,-949.5 1335.27,-943.5 1335.27,-937.5 1335.27,-937.5 1335.27,-796.25 1335.27,-796.25 1335.27,-790.25 1341.27,-784.25 1347.27,-784.25"/>
+          <text text-anchor="start" x="1372.02" y="-933" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1394.52" y="-933" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1417.02" y="-933" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">lection</text>
+          <text text-anchor="start" x="1445.52" y="-933" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1468.02" y="-933" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+        </g>
+        <g id="clust11" class="cluster" transform="matrix(1, 0, 0, 1, -815.864941, 406.461096)">
+          <title>cluster_framework</title>
+          <path fill="none" stroke="#698b22" d="M1747.27,-771.25C1747.27,-771.25 1935.27,-771.25 1935.27,-771.25 1941.27,-771.25 1947.27,-777.25 1947.27,-783.25 1947.27,-783.25 1947.27,-950.5 1947.27,-950.5 1947.27,-956.5 1941.27,-962.5 1935.27,-962.5 1935.27,-962.5 1747.27,-962.5 1747.27,-962.5 1741.27,-962.5 1735.27,-956.5 1735.27,-950.5 1735.27,-950.5 1735.27,-783.25 1735.27,-783.25 1735.27,-777.25 1741.27,-771.25 1747.27,-771.25"/>
+          <text text-anchor="start" x="1772.27" y="-946" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1794.77" y="-946" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1817.27" y="-946" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">framework</text>
+          <text text-anchor="start" x="1865.27" y="-946" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+          <text text-anchor="start" x="1887.77" y="-946" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+        </g>
+        <g id="node7" class="node" transform="matrix(1, 0, 0, 1, -605.078134, 590.153695)">
+          <title>article_models_Article</title>
+          <polygon fill="white" stroke="none" points="1551.27,-802.75 1551.27,-903.75 1711.27,-903.75 1711.27,-802.75 1551.27,-802.75"/>
+          <polygon fill="#1b563f" stroke="none" points="1552.27,-881.75 1552.27,-902.75 1710.27,-902.75 1710.27,-881.75 1552.27,-881.75"/>
+          <text text-anchor="start" x="1596.77" y="-889.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1610.27" y="-889.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Article      </text>
+          <text text-anchor="start" x="1554.27" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-873.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+          <text text-anchor="start" x="1574.52" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1627.27" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.77" y="-873.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+          <text text-anchor="start" x="1688.02" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1554.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">cdate</text>
+          <text text-anchor="start" x="1588.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1626.9" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.4" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1695.15" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1554.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">description</text>
+          <text text-anchor="start" x="1609.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1627.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1691.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1554.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-834.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">mdate</text>
+          <text text-anchor="start" x="1591.77" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1626.9" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.4" y="-834.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1695.15" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1554.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">sources</text>
+          <text text-anchor="start" x="1597.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1627.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.77" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1691.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1554.27" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1567.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">title</text>
+          <text text-anchor="start" x="1582.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1627.27" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1640.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1676.02" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <polygon fill="none" stroke="black" points="1551.27,-802.75 1551.27,-903.75 1711.27,-903.75 1711.27,-802.75 1551.27,-802.75"/>
+        </g>
+        <g id="node9" class="node" transform="matrix(1, 0, 0, 1, -221.270008, 738.500011)">
+          <title>api_models_Api</title>
+          <polygon fill="white" stroke="none" points="1179.27,-822.25 1179.27,-884.25 1311.27,-884.25 1311.27,-822.25 1179.27,-822.25"/>
+          <polygon fill="#1b563f" stroke="none" points="1180.27,-862.25 1180.27,-883.25 1310.27,-883.25 1310.27,-862.25 1180.27,-862.25"/>
+          <text text-anchor="start" x="1217.9" y="-869.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1231.4" y="-869.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Api      </text>
+          <text text-anchor="start" x="1182.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1195.77" y="-853.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+          <text text-anchor="start" x="1202.52" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1234.15" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1247.65" y="-853.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+          <text text-anchor="start" x="1294.9" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1182.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1195.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">alias</text>
+          <text text-anchor="start" x="1213.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1234.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1247.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1283.02" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1182.27" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1195.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">name</text>
+          <text text-anchor="start" x="1216.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1234.27" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1247.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1283.02" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <polygon fill="none" stroke="black" points="1179.27,-822.25 1179.27,-884.25 1311.27,-884.25 1311.27,-822.25 1179.27,-822.25"/>
+        </g>
+        <g id="node10" class="node" transform="matrix(1, 0, 0, 1, -411.000006, -5)">
+          <title>lection_models_Lection</title>
+          <polygon fill="white" stroke="none" points="1351.27,-796.25 1351.27,-910.25 1511.27,-910.25 1511.27,-796.25 1351.27,-796.25"/>
+          <polygon fill="#1b563f" stroke="none" points="1352.27,-888.25 1352.27,-909.25 1510.27,-909.25 1510.27,-888.25 1352.27,-888.25"/>
+          <text text-anchor="start" x="1395.27" y="-895.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1408.77" y="-895.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Lection      </text>
+          <text text-anchor="start" x="1354.27" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-879.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+          <text text-anchor="start" x="1374.52" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1427.27" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.77" y="-879.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+          <text text-anchor="start" x="1488.02" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">cdate</text>
+          <text text-anchor="start" x="1388.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1426.9" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.4" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1495.15" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-853.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">description</text>
+          <text text-anchor="start" x="1409.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1427.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.77" y="-853.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1491.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-840.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">mdate</text>
+          <text text-anchor="start" x="1391.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1426.9" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.4" y="-840.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1495.15" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">sources</text>
+          <text text-anchor="start" x="1397.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1427.27" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.77" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1491.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">title</text>
+          <text text-anchor="start" x="1382.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1427.27" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1476.02" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1354.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1367.77" y="-801.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">title_detail</text>
+          <text text-anchor="start" x="1407.52" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1427.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1440.77" y="-801.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1476.02" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <polygon fill="none" stroke="black" points="1351.27,-796.25 1351.27,-910.25 1511.27,-910.25 1511.27,-796.25 1351.27,-796.25"/>
+        </g>
+        <g id="node14" class="node" transform="matrix(1, 0, 0, 1, -815.864941, 406.461096)">
+          <title>framework_models_Framework</title>
+          <polygon fill="white" stroke="none" points="1751.77,-783.25 1751.77,-923.25 1930.77,-923.25 1930.77,-783.25 1751.77,-783.25"/>
+          <polygon fill="#1b563f" stroke="none" points="1752.77,-901.25 1752.77,-922.25 1929.77,-922.25 1929.77,-901.25 1752.77,-901.25"/>
+          <text text-anchor="start" x="1796.27" y="-908.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1809.77" y="-908.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Framework      </text>
+          <text text-anchor="start" x="1754.77" y="-892.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-892.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+          <text text-anchor="start" x="1775.02" y="-892.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-892.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-892.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+          <text text-anchor="start" x="1907.52" y="-892.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-879.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">architecture</text>
+          <text text-anchor="start" x="1814.02" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-879.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1911.27" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">cdate</text>
+          <text text-anchor="start" x="1789.27" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.4" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1859.9" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1914.65" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-853.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">description</text>
+          <text text-anchor="start" x="1810.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-853.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1911.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-840.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">features</text>
+          <text text-anchor="start" x="1799.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-840.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1911.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.52" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.02" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">frameworkgroup</text>
+          <text text-anchor="start" x="1829.52" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1895.52" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-814.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">mdate</text>
+          <text text-anchor="start" x="1792.27" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.4" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1859.9" y="-814.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+          <text text-anchor="start" x="1914.65" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-801.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">sources</text>
+          <text text-anchor="start" x="1798.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-801.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+          <text text-anchor="start" x="1911.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1754.77" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1768.27" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">title</text>
+          <text text-anchor="start" x="1783.27" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1846.77" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <text text-anchor="start" x="1860.27" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+          <text text-anchor="start" x="1895.52" y="-788.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+          <polygon fill="none" stroke="black" points="1751.77,-783.25 1751.77,-923.25 1930.77,-923.25 1930.77,-783.25 1751.77,-783.25"/>
+        </g>
+      </g>
+      <g id="node2" class="node" transform="matrix(1, 0, 0, 1, 0, 195.000003)">
+        <title>onlinehelper_models_OnlineHelper</title>
+        <polygon fill="white" stroke="none" points="915.27,-776.75 915.27,-929.75 1139.27,-929.75 1139.27,-776.75 915.27,-776.75"/>
+        <polygon fill="#1b563f" stroke="none" points="916.27,-907.75 916.27,-928.75 1138.27,-928.75 1138.27,-907.75 916.27,-907.75"/>
+        <text text-anchor="start" x="979.27" y="-915.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="992.77" y="-915.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      OnlineHelper      </text>
+        <text text-anchor="start" x="918.27" y="-899.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-899.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+        <text text-anchor="start" x="938.52" y="-899.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-899.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-899.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+        <text text-anchor="start" x="1116.02" y="-899.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-886.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">architecture</text>
+        <text text-anchor="start" x="977.52" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-886.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+        <text text-anchor="start" x="1119.77" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">cdate</text>
+        <text text-anchor="start" x="952.77" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1054.9" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.4" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+        <text text-anchor="start" x="1123.15" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-860.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">description</text>
+        <text text-anchor="start" x="973.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-860.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+        <text text-anchor="start" x="1119.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-847.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">image</text>
+        <text text-anchor="start" x="955.02" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-847.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">ImageField</text>
+        <text text-anchor="start" x="1110.02" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-834.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">mdate</text>
+        <text text-anchor="start" x="955.77" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1054.9" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.4" y="-834.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+        <text text-anchor="start" x="1123.15" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">sources</text>
+        <text text-anchor="start" x="961.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+        <text text-anchor="start" x="1119.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.02" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.52" y="-808.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">stream_framework_features</text>
+        <text text-anchor="start" x="1038.02" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-808.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+        <text text-anchor="start" x="1119.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-795.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">stream_framework_name</text>
+        <text text-anchor="start" x="1027.77" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-795.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+        <text text-anchor="start" x="1104.02" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="918.27" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="931.77" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">title</text>
+        <text text-anchor="start" x="946.77" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1055.27" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <text text-anchor="start" x="1068.77" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+        <text text-anchor="start" x="1104.02" y="-782.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+        <polygon fill="none" stroke="black" points="915.27,-776.75 915.27,-929.75 1139.27,-929.75 1139.27,-776.75 915.27,-776.75"/>
+      </g>
+    </g>
+    <g id="clust3" class="cluster">
+      <title>cluster_django_contrib_auth</title>
+      <path fill="none" stroke="#698b22" d="M15.27,-141C15.27,-141 501.27,-141 501.27,-141 507.27,-141 513.27,-147 513.27,-153 513.27,-153 513.27,-725 513.27,-725 513.27,-731 507.27,-737 501.27,-737 501.27,-737 15.27,-737 15.27,-737 9.27,-737 3.27,-731 3.27,-725 3.27,-725 3.27,-153 3.27,-153 3.27,-147 9.27,-141 15.27,-141"/>
+      <text text-anchor="start" x="171.65" y="-720.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="194.15" y="-720.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="216.65" y="-720.5" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">django.contrib.auth</text>
+      <text text-anchor="start" x="299.9" y="-720.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="322.4" y="-720.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g id="clust5" class="cluster">
+      <title>cluster_cms</title>
+      <path fill="none" stroke="#698b22" d="M120.27,-803.75C120.27,-803.75 298.27,-803.75 298.27,-803.75 304.27,-803.75 310.27,-809.75 310.27,-815.75 310.27,-815.75 310.27,-918 310.27,-918 310.27,-924 304.27,-930 298.27,-930 298.27,-930 120.27,-930 120.27,-930 114.27,-930 108.27,-924 108.27,-918 108.27,-918 108.27,-815.75 108.27,-815.75 108.27,-809.75 114.27,-803.75 120.27,-803.75"/>
+      <text text-anchor="start" x="154.9" y="-913.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="177.4" y="-913.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="199.9" y="-913.5" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">cms</text>
+      <text text-anchor="start" x="218.65" y="-913.5" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="241.15" y="-913.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g id="clust8" class="cluster" transform="matrix(1, 0, 0, 1, -747.270031, 120.64644)">
+      <title>cluster_filer</title>
+      <path fill="none" stroke="#698b22" d="M855.27,-160.5C855.27,-160.5 1055.27,-160.5 1055.27,-160.5 1061.27,-160.5 1067.27,-166.5 1067.27,-172.5 1067.27,-172.5 1067.27,-235.75 1067.27,-235.75 1067.27,-241.75 1061.27,-247.75 1055.27,-247.75 1055.27,-247.75 855.27,-247.75 855.27,-247.75 849.27,-247.75 843.27,-241.75 843.27,-235.75 843.27,-235.75 843.27,-172.5 843.27,-172.5 843.27,-166.5 849.27,-160.5 855.27,-160.5"/>
+      <text text-anchor="start" x="901.65" y="-231.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="924.15" y="-231.25" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="946.65" y="-231.25" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">filer</text>
+      <text text-anchor="start" x="963.9" y="-231.25" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="986.4" y="-231.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g id="clust9" class="cluster">
+      <title>cluster_term</title>
+      <path fill="none" stroke="#698b22" d="M330.27,-784.25C330.27,-784.25 502.27,-784.25 502.27,-784.25 508.27,-784.25 514.27,-790.25 514.27,-796.25 514.27,-796.25 514.27,-937.5 514.27,-937.5 514.27,-943.5 508.27,-949.5 502.27,-949.5 502.27,-949.5 330.27,-949.5 330.27,-949.5 324.27,-949.5 318.27,-943.5 318.27,-937.5 318.27,-937.5 318.27,-796.25 318.27,-796.25 318.27,-790.25 324.27,-784.25 330.27,-784.25"/>
+      <text text-anchor="start" x="361.15" y="-933" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="383.65" y="-933" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="406.15" y="-933" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">term</text>
+      <text text-anchor="start" x="426.4" y="-933" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="448.9" y="-933" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g id="clust10" class="cluster" transform="matrix(1, 0, 0, 1, -163.000002, 0)">
+      <title>cluster_django_contrib_contenttypes</title>
+      <path fill="none" stroke="#698b22" d="M718.27,0C718.27,0 929.27,0 929.27,0 935.27,0 941.27,-6 941.27,-12 941.27,-12 941.27,-101.25 941.27,-101.25 941.27,-107.25 935.27,-113.25 929.27,-113.25 929.27,-113.25 718.27,-113.25 718.27,-113.25 712.27,-113.25 706.27,-107.25 706.27,-101.25 706.27,-101.25 706.27,-12 706.27,-12 706.27,-6 712.27,0 718.27,0"/>
+      <text text-anchor="start" x="718.4" y="-96.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="740.9" y="-96.75" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="763.4" y="-96.75" font-family="Roboto" font-weight="bold" font-size="10.00" style="white-space: pre;">django.contrib.contenttypes</text>
+      <text text-anchor="start" x="884.15" y="-96.75" font-family="Roboto" font-size="10.00" style="white-space: pre;">          </text>
+      <text text-anchor="start" x="906.65" y="-96.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">          </text>
+    </g>
+    <g id="node1" class="node">
+      <title>django_contrib_admin_models_LogEntry</title>
+      <polygon fill="white" stroke="none" points="649.77,-789.75 649.77,-916.75 874.77,-916.75 874.77,-789.75 649.77,-789.75"/>
+      <polygon fill="#1b563f" stroke="none" points="650.77,-894.75 650.77,-915.75 873.77,-915.75 873.77,-894.75 650.77,-894.75"/>
+      <text text-anchor="start" x="722.9" y="-902.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="736.4" y="-902.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      LogEntry      </text>
+      <text text-anchor="start" x="652.77" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-886.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="673.02" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-886.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="797.52" y="-886.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-873.15" font-family="Roboto" font-weight="bold" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">content_type</text>
+      <text text-anchor="start" x="715.02" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-873.15" font-family="Roboto" font-weight="bold" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="819.27" y="-873.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-860.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">user</text>
+      <text text-anchor="start" x="682.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-860.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="819.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">action_flag</text>
+      <text text-anchor="start" x="707.52" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">PositiveSmallIntegerField</text>
+      <text text-anchor="start" x="858.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">action_time</text>
+      <text text-anchor="start" x="710.52" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="817.02" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.65" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.15" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">change_message</text>
+      <text text-anchor="start" x="731.4" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-821.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">TextField</text>
+      <text text-anchor="start" x="796.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-808.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">object_id</text>
+      <text text-anchor="start" x="700.02" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-808.15" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">TextField</text>
+      <text text-anchor="start" x="796.77" y="-808.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="652.77" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="666.27" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">object_repr</text>
+      <text text-anchor="start" x="708.27" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="748.77" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="762.27" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="797.52" y="-795.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="649.77,-789.75 649.77,-916.75 874.77,-916.75 874.77,-789.75 649.77,-789.75"/>
+    </g>
+    <g id="node6" class="node">
+      <title>django_contrib_auth_models_User</title>
+      <polygon fill="white" stroke="none" points="222.77,-522.75 222.77,-697.75 387.77,-697.75 387.77,-522.75 222.77,-522.75"/>
+      <polygon fill="#1b563f" stroke="none" points="223.77,-666.75 223.77,-696.75 386.77,-696.75 386.77,-666.75 223.77,-666.75"/>
+      <text text-anchor="start" x="281.27" y="-683.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="294.77" y="-683.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      User</text>
+      <text text-anchor="start" x="264.4" y="-673.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">&lt;</text>
+      <text text-anchor="start" x="269.65" y="-673.25" font-family="Roboto" font-weight="bold" font-style="italic" font-size="10.00" fill="white" style="white-space: pre;">AbstractUser</text>
+      <text text-anchor="start" x="327.4" y="-673.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">&gt;      </text>
+      <text text-anchor="start" x="225.77" y="-658.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-658.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="246.02" y="-658.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-658.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-658.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="353.52" y="-658.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-645.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-645.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">date_joined</text>
+      <text text-anchor="start" x="282.02" y="-645.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.65" y="-645.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.15" y="-645.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="371.4" y="-645.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-632.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-632.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">email</text>
+      <text text-anchor="start" x="259.52" y="-632.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-632.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-632.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">EmailField</text>
+      <text text-anchor="start" x="356.52" y="-632.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-619.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-619.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">first_name</text>
+      <text text-anchor="start" x="279.02" y="-619.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-619.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-619.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="353.52" y="-619.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-606.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-606.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">is_active</text>
+      <text text-anchor="start" x="272.27" y="-606.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-606.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-606.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="366.27" y="-606.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-593.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-593.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">is_staff</text>
+      <text text-anchor="start" x="267.77" y="-593.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-593.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-593.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="366.27" y="-593.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-580.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-580.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">is_superuser</text>
+      <text text-anchor="start" x="287.27" y="-580.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-580.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-580.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="366.27" y="-580.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-567.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-567.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">last_login</text>
+      <text text-anchor="start" x="275.27" y="-567.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.65" y="-567.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.15" y="-567.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="371.4" y="-567.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-554.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-554.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">last_name</text>
+      <text text-anchor="start" x="277.52" y="-554.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-554.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-554.15" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="353.52" y="-554.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-541.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-541.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">password</text>
+      <text text-anchor="start" x="275.27" y="-541.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-541.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-541.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="353.52" y="-541.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="225.77" y="-528.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="239.27" y="-528.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">username</text>
+      <text text-anchor="start" x="276.02" y="-528.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="304.77" y="-528.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="318.27" y="-528.15" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="353.52" y="-528.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="222.77,-522.75 222.77,-697.75 387.77,-697.75 387.77,-522.75 222.77,-522.75"/>
+    </g>
+    <g id="edge12" class="edge">
+      <title>django_contrib_admin_models_LogEntry-&gt;django_contrib_auth_models_User</title>
+      <path fill="none" stroke="black" d="M634.14,-784.68C558.16,-744.61 463.71,-694.8 395.54,-658.86"/>
+      <ellipse fill="black" stroke="black" cx="637.92" cy="-786.67" rx="4" ry="4"/>
+      <text text-anchor="middle" x="602.77" y="-747.15" font-family="Roboto" font-size="8.00" style="white-space: pre;"> user (logentry)</text>
+    </g>
+    <g id="node13" class="node" transform="matrix(1, 0, 0, 1, -163.000002, 0)">
+      <title>django_contrib_contenttypes_models_ContentType</title>
+      <polygon fill="white" stroke="none" points="756.27,-12 756.27,-74 890.27,-74 890.27,-12 756.27,-12"/>
+      <polygon fill="#1b563f" stroke="none" points="757.27,-52 757.27,-73 889.27,-73 889.27,-52 757.27,-52"/>
+      <text text-anchor="start" x="775.27" y="-59.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="788.77" y="-59.5" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      ContentType      </text>
+      <text text-anchor="start" x="759.27" y="-43.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="772.77" y="-43.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="779.52" y="-43.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="825.15" y="-43.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="838.65" y="-43.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="873.9" y="-43.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="759.15" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="772.65" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">app_label</text>
+      <text text-anchor="start" x="807.9" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="825.15" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="838.65" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="873.9" y="-30.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="759.27" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="772.77" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">model</text>
+      <text text-anchor="start" x="796.02" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="825.15" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="838.65" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="873.9" y="-17.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="756.27,-12 756.27,-74 890.27,-74 890.27,-12 756.27,-12"/>
+    </g>
+    <g>
+      <g>
+        <path fill="none" stroke="black" d="M 715.138 -780.664 C 730.848 -733.674 696 -634.494 724.394 -573 C 724.394 -573 798.469 -455.329 823.27 -189.5 C 829.292 -124.953 820.719 -93.501 796 -73"/>
+        <ellipse fill="black" stroke="black" cx="713.95" cy="-781.6" rx="4" ry="4"/>
+        <text text-anchor="middle" x="741.52" y="-375.52" font-family="Roboto" font-size="8.00" style="white-space: pre; font-size: 8px;"> content_type (logentry)</text>
+        <g id="node16" class="node">
+          <title>django_contrib_auth_models_PermissionsMixin</title>
+          <polygon fill="white" stroke="none" points="675.02,-179.38 675.02,-201.62 787.52,-201.62 787.52,-179.38 675.02,-179.38"/>
+          <polygon fill="#1b563f" stroke="none" points="675.02,-179.38 675.02,-201.62 787.52,-201.62 787.52,-179.38 675.02,-179.38"/>
+          <text text-anchor="start" x="679.52" y="-187.22" font-family="Roboto" font-size="8.00" style="white-space: pre;">  </text>
+          <text text-anchor="start" x="684.02" y="-187.22" font-family="Roboto" font-size="12.00" fill="white" style="white-space: pre;">PermissionsMixin</text>
+          <text text-anchor="start" x="778.52" y="-187.22" font-family="Roboto" font-size="8.00" style="white-space: pre;">  </text>
+        </g>
+      </g>
+    </g>
+    <g id="node3" class="node">
+      <title>django_contrib_auth_models_AbstractUser</title>
+      <polygon fill="white" stroke="none" points="303.27,-297.25 303.27,-459.25 497.27,-459.25 497.27,-297.25 303.27,-297.25"/>
+      <polygon fill="#1b563f" stroke="none" points="304.27,-428.25 304.27,-458.25 496.27,-458.25 496.27,-428.25 304.27,-428.25"/>
+      <text text-anchor="start" x="357.52" y="-444.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="371.02" y="-444.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      AbstractUser</text>
+      <text text-anchor="start" x="309.15" y="-434.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">&lt;</text>
+      <text text-anchor="start" x="314.4" y="-434.75" font-family="Roboto" font-weight="bold" font-style="italic" font-size="10.00" fill="white" style="white-space: pre;">AbstractBaseUser,PermissionsMixin</text>
+      <text text-anchor="start" x="472.65" y="-434.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">&gt;      </text>
+      <text text-anchor="start" x="306.27" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">date_joined</text>
+      <text text-anchor="start" x="362.52" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="467.52" y="-419.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-406.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-406.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">email</text>
+      <text text-anchor="start" x="340.77" y="-406.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-406.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-406.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">EmailField</text>
+      <text text-anchor="start" x="451.77" y="-406.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-393.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-393.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">first_name</text>
+      <text text-anchor="start" x="360.27" y="-393.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-393.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-393.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="448.02" y="-393.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">is_active</text>
+      <text text-anchor="start" x="352.77" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="460.77" y="-380.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">is_staff</text>
+      <text text-anchor="start" x="348.27" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="460.77" y="-367.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-354.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-354.65" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">is_superuser</text>
+      <text text-anchor="start" x="367.77" y="-354.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-354.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-354.65" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">BooleanField</text>
+      <text text-anchor="start" x="460.77" y="-354.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-341.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-341.65" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">last_login</text>
+      <text text-anchor="start" x="355.77" y="-341.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-341.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-341.65" font-family="Roboto" font-style="italic" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="466.02" y="-341.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-328.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-328.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">last_name</text>
+      <text text-anchor="start" x="358.77" y="-328.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-328.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-328.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="448.02" y="-328.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-315.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-315.65" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">password</text>
+      <text text-anchor="start" x="355.77" y="-315.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-315.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-315.65" font-family="Roboto" font-style="italic" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="448.02" y="-315.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="306.27" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="319.77" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">username</text>
+      <text text-anchor="start" x="357.27" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="399.27" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="412.77" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="448.02" y="-302.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="303.27,-297.25 303.27,-459.25 497.27,-459.25 497.27,-297.25 303.27,-297.25"/>
+    </g>
+    <g id="node15" class="node">
+      <title>django_contrib_auth_base_user_AbstractBaseUser</title>
+      <polygon fill="white" stroke="none" points="529.4,-179.38 529.4,-201.62 641.15,-201.62 641.15,-179.38 529.4,-179.38"/>
+      <polygon fill="#1b563f" stroke="none" points="529.4,-179.38 529.4,-201.62 641.15,-201.62 641.15,-179.38 529.4,-179.38"/>
+      <text text-anchor="start" x="533.9" y="-187.22" font-family="Roboto" font-size="8.00" style="white-space: pre;">  </text>
+      <text text-anchor="start" x="538.4" y="-187.22" font-family="Roboto" font-size="12.00" fill="white" style="white-space: pre;">AbstractBaseUser</text>
+      <text text-anchor="start" x="632.15" y="-187.22" font-family="Roboto" font-size="8.00" style="white-space: pre;">  </text>
+    </g>
+    <g id="edge5" class="edge">
+      <title>django_contrib_auth_models_AbstractUser-&gt;django_contrib_auth_base_user_AbstractBaseUser</title>
+      <path fill="none" stroke="black" d="M483.84,-293.34C511.82,-265.24 540.91,-236.04 560.72,-216.15"/>
+      <polygon fill="none" stroke="black" points="562.97,-218.86 567.54,-209.3 558.01,-213.92 562.97,-218.86"/>
+      <text text-anchor="middle" x="540.27" y="-267.65" font-family="Roboto" font-size="8.00" style="white-space: pre;"> abstract</text>
+      <text text-anchor="middle" x="540.27" y="-257.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">inheritance</text>
+    </g>
+    <g id="edge6" class="edge">
+      <title>django_contrib_auth_models_AbstractUser-&gt;django_contrib_auth_models_PermissionsMixin</title>
+      <path fill="none" stroke="black" d="M505.06,-330.27C552.94,-307.4 609.68,-278.27 658.27,-247.75 673.68,-238.07 689.81,-225.89 702.98,-215.34"/>
+      <polygon fill="none" stroke="black" points="704.86,-218.33 710.4,-209.3 700.44,-212.9 704.86,-218.33"/>
+      <text text-anchor="middle" x="665.27" y="-267.65" font-family="Roboto" font-size="8.00" style="white-space: pre;"> abstract</text>
+      <text text-anchor="middle" x="665.27" y="-257.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">inheritance</text>
+    </g>
+    <g id="node4" class="node">
+      <title>django_contrib_auth_models_Permission</title>
+      <polygon fill="white" stroke="none" points="124.77,-153 124.77,-228 293.77,-228 293.77,-153 124.77,-153"/>
+      <polygon fill="#1b563f" stroke="none" points="125.77,-206 125.77,-227 292.77,-227 292.77,-206 125.77,-206"/>
+      <text text-anchor="start" x="164.65" y="-213.5" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="178.15" y="-213.5" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Permission      </text>
+      <text text-anchor="start" x="127.77" y="-197.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="141.27" y="-197.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="148.02" y="-197.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="206.77" y="-197.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="220.27" y="-197.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="255.52" y="-197.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.4" y="-184.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="140.9" y="-184.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">content_type</text>
+      <text text-anchor="start" x="189.65" y="-184.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="206.77" y="-184.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="220.27" y="-184.4" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="277.27" y="-184.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.77" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="141.27" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">codename</text>
+      <text text-anchor="start" x="180.27" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="206.77" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="220.27" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="255.52" y="-171.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.77" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="141.27" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">name</text>
+      <text text-anchor="start" x="162.27" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="206.77" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="220.27" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="255.52" y="-158.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="124.77,-153 124.77,-228 293.77,-228 293.77,-153 124.77,-153"/>
+    </g>
+    <g>
+      <path fill="none" stroke="black" d="M 306.34 -166.093 C 371.866 -139.93 481.111 -96.314 539.5 -73"/>
+    </g>
+    <ellipse fill="black" stroke="black" cx="304.027" cy="-167.016" rx="2.127" ry="3.584"/>
+    <text text-anchor="middle" x="529.52" y="-123.4" font-family="Roboto" font-size="8.00" style="white-space: pre;" transform="matrix(0.78663, 0, 0, 1.338036, 31.486454, 41.214673)"> content_type (permission)</text>
+    <g id="node5" class="node">
+      <title>django_contrib_auth_models_Group</title>
+      <polygon fill="white" stroke="none" points="149.27,-353.75 149.27,-402.75 269.27,-402.75 269.27,-353.75 149.27,-353.75"/>
+      <polygon fill="#1b563f" stroke="none" points="150.27,-380.75 150.27,-401.75 268.27,-401.75 268.27,-380.75 150.27,-380.75"/>
+      <text text-anchor="start" x="175.9" y="-388.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="189.4" y="-388.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Group      </text>
+      <text text-anchor="start" x="152.27" y="-372.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="165.77" y="-372.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="172.52" y="-372.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="204.15" y="-372.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="217.65" y="-372.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="252.9" y="-372.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="152.27" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="165.77" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">name</text>
+      <text text-anchor="start" x="186.77" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="204.15" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="217.65" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="252.9" y="-359.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="149.27,-353.75 149.27,-402.75 269.27,-402.75 269.27,-353.75 149.27,-353.75"/>
+    </g>
+    <g id="edge1" class="edge">
+      <title>django_contrib_auth_models_Group-&gt;django_contrib_auth_models_Permission</title>
+      <path fill="none" stroke="black" d="M209.27,-340.98C209.27,-312.28 209.27,-271.92 209.27,-240.38"/>
+      <ellipse fill="black" stroke="black" cx="209.27" cy="-345.34" rx="4" ry="4"/>
+      <ellipse fill="black" stroke="black" cx="209.27" cy="-236.23" rx="4" ry="4"/>
+      <text text-anchor="middle" x="248.27" y="-262.77" font-family="Roboto" font-size="8.00" style="white-space: pre;"> permissions (group)</text>
+    </g>
+    <g id="edge2" class="edge">
+      <title>django_contrib_auth_models_User-&gt;django_contrib_auth_models_AbstractUser</title>
+      <path fill="none" stroke="black" d="M342.54,-519.01C348.71,-504.08 355.12,-488.57 361.32,-473.54"/>
+      <polygon fill="none" stroke="black" points="364.42,-475.21 365,-464.63 357.95,-472.53 364.42,-475.21"/>
+      <text text-anchor="middle" x="376.27" y="-493.15" font-family="Roboto" font-size="8.00" style="white-space: pre;"> abstract</text>
+      <text text-anchor="middle" x="376.27" y="-483.4" font-family="Roboto" font-size="8.00" style="white-space: pre;">inheritance</text>
+    </g>
+    <g id="edge3" class="edge">
+      <title>django_contrib_auth_models_User-&gt;django_contrib_auth_models_Permission</title>
+      <path fill="none" stroke="black" d="M206.41,-583.05C146.44,-561.49 74.7,-524.3 38.52,-463.25 0,-398.25 1.2,-358.94 38.52,-293.25 54.42,-265.28 81.38,-244.18 109.24,-228.67"/>
+      <ellipse fill="black" stroke="black" cx="210.55" cy="-584.5" rx="4" ry="4"/>
+      <ellipse fill="black" stroke="black" cx="113.16" cy="-226.57" rx="4" ry="4"/>
+      <text text-anchor="middle" x="86.15" y="-375.52" font-family="Roboto" font-size="8.00" style="white-space: pre;"> user_permissions (user)</text>
+    </g>
+    <g id="edge4" class="edge">
+      <title>django_contrib_auth_models_User-&gt;django_contrib_auth_models_Group</title>
+      <path fill="none" stroke="black" d="M264.24,-510.96C249.96,-476.74 234.84,-440.51 224.08,-414.73"/>
+      <ellipse fill="black" stroke="black" cx="265.87" cy="-514.86" rx="4" ry="4"/>
+      <ellipse fill="black" stroke="black" cx="222.48" cy="-410.89" rx="4" ry="4"/>
+      <text text-anchor="middle" x="283.52" y="-488.27" font-family="Roboto" font-size="8.00" style="white-space: pre;"> groups (user)</text>
+    </g>
+    <g id="node8" class="node">
+      <title>cms_models_settingmodels_UserSettings</title>
+      <polygon fill="white" stroke="none" points="124.27,-815.75 124.27,-890.75 294.27,-890.75 294.27,-815.75 124.27,-815.75"/>
+      <polygon fill="#1b563f" stroke="none" points="125.27,-868.75 125.27,-889.75 293.27,-889.75 293.27,-868.75 125.27,-868.75"/>
+      <text text-anchor="start" x="160.9" y="-876.25" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="174.4" y="-876.25" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      UserSettings      </text>
+      <text text-anchor="start" x="127.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="140.77" y="-860.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="147.52" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="192.27" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="205.77" y="-860.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">AutoField</text>
+      <text text-anchor="start" x="241.02" y="-860.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.02" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="140.52" y="-847.15" font-family="Roboto" font-weight="bold" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">clipboard</text>
+      <text text-anchor="start" x="175.02" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="192.27" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="205.77" y="-847.15" font-family="Roboto" font-weight="bold" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="262.77" y="-847.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="140.77" y="-834.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">user</text>
+      <text text-anchor="start" x="157.27" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="191.9" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="205.4" y="-834.15" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">OneToOneField (id)</text>
+      <text text-anchor="start" x="278.15" y="-834.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="127.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="140.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">language</text>
+      <text text-anchor="start" x="174.52" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="192.27" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="205.77" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="241.02" y="-821.15" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="124.27,-815.75 124.27,-890.75 294.27,-890.75 294.27,-815.75 124.27,-815.75"/>
+    </g>
+    <g id="edge8" class="edge">
+      <title>cms_models_settingmodels_UserSettings-&gt;django_contrib_auth_models_User</title>
+      <path fill="none" stroke="black" d="M220.62,-811.84C226.67,-791.56 234.58,-766.75 243.02,-745 248.53,-730.79 254.85,-715.97 261.29,-701.57"/>
+      <text text-anchor="middle" x="302.89" y="-747.15" font-family="Roboto" font-size="8.00" style="white-space: pre;"> user (djangocms_usersettings)</text>
+    </g>
+    <g id="node11" class="node" transform="matrix(1, 0, 0, 1, -747.270031, 120.64644)">
+      <title>polymorphic_models_PolymorphicModel</title>
+      <polygon fill="white" stroke="none" points="859.27,-172.5 859.27,-208.5 1051.27,-208.5 1051.27,-172.5 859.27,-172.5"/>
+      <polygon fill="#1b563f" stroke="none" points="860.27,-186.5 860.27,-207.5 1050.27,-207.5 1050.27,-186.5 860.27,-186.5"/>
+      <text text-anchor="start" x="894.9" y="-194" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="908.4" y="-194" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      PolymorphicModel      </text>
+      <text text-anchor="start" x="862.15" y="-177.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="875.65" y="-177.9" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">polymorphic_ctype</text>
+      <text text-anchor="start" x="946.9" y="-177.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="964.27" y="-177.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="977.77" y="-177.9" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="1034.77" y="-177.9" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="859.27,-172.5 859.27,-208.5 1051.27,-208.5 1051.27,-172.5 859.27,-172.5"/>
+    </g>
+    <g>
+      <path fill="none" stroke="black" d="M 539.97 -33.557 C 475.227 -44.634 380.801 -60.774 311.315 -72.653" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(-1, 0, 0, -1, 0.000007, 0.000003)"/>
+      <ellipse fill="black" stroke="black" cx="311.07" cy="-73.674" rx="4" ry="4"/>
+      <text text-anchor="middle" x="400.4" y="-16.754" font-family="Roboto" font-size="8.00" style="white-space: pre; font-size: 8px;" transform="matrix(0.948291, 0, 0, 1.15437, 41.783383, -5.050413)"> polymorphic_ctype (polymorphic_%(app_label)s.%(class)s_set+)</text>
+    </g>
+    <g id="node12" class="node">
+      <title>term_models_Term</title>
+      <polygon fill="white" stroke="none" points="334.77,-796.25 334.77,-910.25 497.77,-910.25 497.77,-796.25 334.77,-796.25"/>
+      <polygon fill="#1b563f" stroke="none" points="335.77,-888.25 335.77,-909.25 496.77,-909.25 496.77,-888.25 335.77,-888.25"/>
+      <text text-anchor="start" x="384.4" y="-895.75" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="397.9" y="-895.75" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white" style="white-space: pre;">      Term      </text>
+      <text text-anchor="start" x="337.77" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-879.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">id</text>
+      <text text-anchor="start" x="358.02" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-879.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">BigAutoField</text>
+      <text text-anchor="start" x="471.52" y="-879.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-866.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">user</text>
+      <text text-anchor="start" x="367.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-866.65" font-family="Roboto" font-weight="bold" font-size="8.00" style="white-space: pre;">ForeignKey (id)</text>
+      <text text-anchor="start" x="481.27" y="-866.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">cdate</text>
+      <text text-anchor="start" x="372.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="479.02" y="-853.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">description</text>
+      <text text-anchor="start" x="393.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">RichTextField</text>
+      <text text-anchor="start" x="475.27" y="-840.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">mdate</text>
+      <text text-anchor="start" x="375.27" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-827.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">DateTimeField</text>
+      <text text-anchor="start" x="479.02" y="-827.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-814.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">sources</text>
+      <text text-anchor="start" x="381.27" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-814.65" font-family="Roboto" font-size="8.00" fill="#7b7b7b" style="white-space: pre;">RichTextField</text>
+      <text text-anchor="start" x="475.27" y="-814.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="337.77" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="351.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">title</text>
+      <text text-anchor="start" x="366.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="410.77" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <text text-anchor="start" x="424.27" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">CharField</text>
+      <text text-anchor="start" x="459.52" y="-801.65" font-family="Roboto" font-size="8.00" style="white-space: pre;">      </text>
+      <polygon fill="none" stroke="black" points="334.77,-796.25 334.77,-910.25 497.77,-910.25 497.77,-796.25 334.77,-796.25"/>
+    </g>
+    <g id="edge10" class="edge">
+      <title>term_models_Term-&gt;django_contrib_auth_models_User</title>
+      <path fill="none" stroke="black" d="M385.07,-784.5C373.19,-758.71 359.46,-728.91 346.78,-701.38"/>
+      <ellipse fill="black" stroke="black" cx="386.81" cy="-788.28" rx="4" ry="4"/>
+      <text text-anchor="middle" x="392.77" y="-747.15" font-family="Roboto" font-size="8.00" style="white-space: pre;"> user (term)</text>
+    </g>
+  </g>
+</svg>

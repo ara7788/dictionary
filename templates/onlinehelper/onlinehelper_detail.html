@@ -1,0 +1,94 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="onlinehelper card">
+        
+        <div class="onlinehelper-title card-header">
+                {% if object.image %}
+                <div class="onlinehelper-logo">
+                        <img class="onlinehelper-img img-fluid rounded float-end " src="{{  object.image.url }}" alt=""> 
+                </div>
+                {% endif %}
+                <div>
+                        <h2 class="main-onlinehelper-h2 card-title"><strong>{{ object.title }}</strong></h2>
+                        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                                Дата створення: {{ object.cdate }}
+                        </p>
+                        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                                Дата модифікації: {{ object.mdate }}</p>
+                        <h4 class="card-title">Framework: {{ object.stream_framework_name }}</h4>
+                </div>
+                      
+        </div>
+
+        <div class="main-oh-ul card-body">
+                <!---->
+                <ul class="nav nav-tabs main-oh-ul">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link active" num="1" id="tabs-scala-1" aria-current="page" href="#tab_scala">Scala</a> -->
+                            <a class="nav-link active main-oh-a" num="1" id="tabs-description-1" aria-current="page"  href="#onlinehelper-description" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Опис</strong></a>
+                        </li>
+                        {% if onlinehelper.architecture %}
+                        <li class="nav-item">
+                            <!-- <a class="nav-link " num="1"  id="tabs-java-1" aria-current="page" href="#tab_java">Java</a> -->
+                            <a class="nav-link main-oh-a" num="1"  id="tabs-architecture-1" aria-current="page" href="#onlinehelper-architecture"  style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Архітектура</strong></a>
+                        </li>
+                        {% endif %}
+                        {% if onlinehelper.stream_framework_features %}
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" num="1"  id="tabs-python-1" aria-current="page" href="#tab_python">Python</a> -->
+                            <a class="nav-link main-oh-a" num="1"  id="tabs-features-1" aria-current="page" href="#onlinehelper-features" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Потоковий Framework</strong></a>
+                        </li>
+                        {% endif %}
+                        {% if onlinehelper.sources %}
+                        <li class="nav-item ">
+                            <!-- <a class="nav-link" num="1"  id="tabs-r-1" aria-current="page" href="#tab_r">R</a> -->
+                            <a class="nav-link main-oh-a" num="1"  id="tabs-sources-1" aria-current="page" href="#onlinehelper-sources" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Джерела</strong></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+
+        </div>
+
+    {% autoescape off %}
+    <div class="card-body">
+                <div class="onlinehelper-description" id="tab_description-1">
+                        <!-- <p>&nbsp;</p> -->
+                        <h2>Опис</h2>
+                        <p>&nbsp;</p>
+                        <p class="card-text">{{ onlinehelper.description }}</p>
+                </div>
+                
+                {% if onlinehelper.architecture %}      
+                <div class="onlinehelper-architecture" id="tab_architecture-1" hidden>
+                        <!-- <p>&nbsp;</p> -->
+                        <h2>Архітектура</h2>
+                        <p>&nbsp;</p>                        
+                        <p class="card-text">{{ onlinehelper.architecture }}</p>
+                </div>
+                
+                {% endif %}
+                {% if onlinehelper.stream_framework_features %}
+                <div class="onlinehelper-features" id="tab_features-1" hidden>
+                        <!-- <p>&nbsp;</p> -->
+                        <h2>{{ onlinehelper.stream_framework_name }}</h2>
+                        <p>&nbsp;</p>                         
+                        <p class="card-text">{{ onlinehelper.stream_framework_features }}</p>
+                        
+                </div>
+                {% endif %}
+                {% if onlinehelper.sources %}
+                        <div class="onlinehelper-sources" id="tab_sources-1" hidden>
+                                <!-- <p>&nbsp;</p> -->
+                                <h4>Джерела:</h4>
+                                <p>&nbsp;</p>
+                                <p class="card-text">{{ onlinehelper.sources }}</p>
+                        </div>
+                {% endif %}
+        </div>
+    {% endautoescape %}
+</div>
+
+{% endblock %}

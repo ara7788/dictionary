@@ -1,0 +1,34 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        {% if pattern_name %}
+            <!-- <h2 class="main-terms-h2">{{ pattern_name }}</h2> -->
+            <h2 class="card-title" style="text-align: center;">{{ pattern_name }}</h2>
+        {% else %}
+            <!-- <h2 class="main-terms-h2">Термін відсутній у словнику</h2> -->
+            <h2 class="card-title" style="text-align: center;">Термін відсутній у словнику</h2>
+        {% endif%}
+    </div>
+    <div class="card-body">
+        {% if msg %}
+            <h4 class="terms-h4"><p class="text-info">{{ msg }}</p></h4>
+        {% endif%}
+
+        <div class="grid home">
+            {% for term in terms %}
+                <!-- <div class="col letter" align="center"> -->
+                    <!-- <p class="main-home-p card-text"><a class="nav-link home-a" href="{% url 'term:term' term.id %}">{{ term.title }}</a></p> -->
+                    <p class="card-text"><a class="nav-link " href="{% url 'term:term' term.id %}">{{ term.title }}</a></p>
+                <!-- </div> -->
+            {% endfor%}
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<h1>{{ home.title }}</h1>
+<p>
+    <div>
+        <img src="{{  home.image.url }}">
+    </div>
+{% endblock %}

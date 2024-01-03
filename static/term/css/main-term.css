@@ -1,0 +1,60 @@
+.term{
+    display: grid;
+    grid-gap: 0px;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+
+}
+
+.term-title{
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+    width: 90%
+}
+
+.term-description{
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+    width: 90%;
+}
+
+.term-details{
+    display: grid;
+    width: 90%;
+}
+
+.term-details-p{
+    font-weight: bold;
+}
+
+.term-image{
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+
+}
+
+.terms-h4{
+    display: grid;
+    justify-self: center;
+    text-indent: 10px;
+    /* text-align: center; */
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+  }
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}

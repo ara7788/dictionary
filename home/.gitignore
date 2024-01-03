@@ -1,0 +1,11 @@
+.git
+.idea
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+dictionary/local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media

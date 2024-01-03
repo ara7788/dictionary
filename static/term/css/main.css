@@ -1,0 +1,44 @@
+@import url(main-home.css);
+@import url(main-term.css);
+@import url(main-terms.css);
+@import url(main-onlinehelper.css);
+
+main {
+    /* grid-area: main; */
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+    /* grid-gap: 10px; */
+    /* grid-template-columns: 1fr; */
+    /* background-color: cadetblue;
+    border: 1px solid rgb(24, 84, 133);
+    color: #fff; */
+}
+
+.main-back-on-top{
+    display: block;
+    width: 60px;
+    height: 20px;
+    position: fixed;
+    right: 15px;
+    bottom: 90px;
+    z-index: 99999;
+}
+  
+
+/* .row{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px
+}
+
+.col{
+    -ms-flex-preferred-size:0;
+    flex-basis:0;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    max-width:100%
+}*/

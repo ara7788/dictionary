@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Big Data Hub - internet portal for stydents of IT. Big Data (великі дані) - це величезні масиви інформації, створювані великими інформаційними системами.">
+    <meta name="keywords" content="Big Data Hub, BDHUB, Apache Flume, Apache Hadoop, Apache Kafka, Apache Samza, Apache Spark, Big Data">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    # CSS section
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'term/css/index.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'term/images/big-data-cloud.png' %}">
+    <title>Big Data Hub - internet portal for stydents of IT.</title>
+</head>
+
+<body>
+  <section class="container">
+    <p><a name="_GoBack"></a></p>
+    <div class="grid header">
+      <div class="header-letters">
+        <hr>
+        <!-- <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary"> -->
+          <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary navbar-light bg-light justify-content-between">
+            <div class="container-fluid" style="background-color: #fafafa;
+            background-image: linear-gradient(to bottom, #ffffff, #e2f1f8);
+            background-repeat: repeat-x;
+            box-shadow: 0 1px 10px rgba(0,0,0,.1);
+            border-bottom-color: #d4d4d4;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;">
+              <a class="navbar-brand" href="{% url 'main' %}">Big Data Hub</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <!-- <ul class="nav justify-content-center"> -->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'main' %}">Про проект</a>
+                    <!-- <a class="nav-link active" aria-current="page" href="{% url 'homecarusel' %}">Про проект</a> -->
+                    
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Базові знання
+                    </a>
+                    <ul class="dropdown-menu">
+                      {% load lection_extras %}
+                      {% get_lections as lections %}
+                        {% for lection in lections %}
+                            <li>
+                              <a class="dropdown-item" href="{{ lection.get_absolute_url }}">{{ lection.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Онлайн обробники
+                    </a>
+                    <ul class="dropdown-menu">
+                      {% load onlinehelper_extras %}
+                      {% get_onlinehelpers as onlinehelpers %}
+                        {% for onlinehelper in onlinehelpers %}
+                            <li>
+                              <a class="dropdown-item" href="{{ onlinehelper.get_absolute_url }}">{{ onlinehelper.title }}</a> 
+                            </li>
+                        {% endfor %}
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Дотичні фреймворки
+                    </a>
+                    <ul class="dropdown-menu">
+                      {% load framework_extras %}
+                      {% get_frameworks as frameworks %}
+                        {% for framework in frameworks %}
+                            <li>
+                              <a class="dropdown-item" href="{{ framework.get_absolute_url }}"><u>{{ framework.frameworkgroup }}</u>: <strong>{{ framework.title }}</strong></a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'article:articles' %}">Публікації</a>
+                  </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Словник
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="{% url 'allterms' %}">Усі терміни</a>
+                    </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="{% url 'help:helps' %}">Довідка</a></li>
+                    </ul>
+                  </li>
+                  {% if user.is_authenticated %}
+                  <li class="nav-item">
+                    <!-- <a class="nav-link disabled" href="{% url 'contacts' %}">Контакти</a> -->
+                    <a class="nav-link" href="{% url 'contacts' %}">Контакти</a>
+                  </li>
+                  {% endif %}
+                  <li class="nav-item">
+                    <hr>
+                  </li>                                 
+                </ul>
+                <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-end" >
+                  <li class="nav-item">
+                    <form class="d-flex" role="search" method="POST" action="{% url 'termsearch' %}">
+                      {% csrf_token %}
+                      <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search" name="pattern_name">
+                      <button class="btn btn-outline-success" type="submit">Пошук</button>
+                    </form>
+                  </li>
+                  <li class="nav-item">
+                    <hr>
+                  </li>
+                  {% if user.is_authenticated %}
+                    <li class="nav-item">
+                      <a href="#" onclick="$('#signOutBtn').click()" class="nav-link">Вийти</a>
+                      <form style='display: none;' method="POST" action="{% url 'logoutuser' %}">
+                          {% csrf_token %}
+                          <button id="signOutBtn" type="submit">Logout</button>
+                      </form>
+                    </li>
+                  {% else %}
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'signupuser' %}">Реєстрація</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="{% url 'loginuser' %}">Увійти</a>
+                    </li>
+                  {% endif %}
+                </ul>              
+            </div>
+          </nav>
+      <!-- <hr> -->
+    </div>
+    </div>
+       
+
+<div class="grid main">
+
+    {% block content%}{% endblock%}
+
+    <a class="main-back-on-top" href="#_GoBack">Догори</a>
+</div>
+
+<div class="grid footer auto-fit">
+  <p class="footer-p">© Copyright, Big Data Hub 2023. All rights reserved.</p>      
+</div>
+
+</section>
+
+# Script section
+
+<script src="{% static 'term/js/nav-tabs.js' %}"></script>
+<!-- <script src="{% static 'term/js/jquery-3.4.1.slim.min.js' %}"></script>
+<script src="{% static 'term/js/popper.min.js' %}"></script>
+<script src="{% static 'term/js/bootstrap.bundle.min.js' %}"></script> -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

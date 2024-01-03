@@ -1,0 +1,25 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<!-- {% if msg %}
+<h4 class="terms-h4"><p class="text-info">{{ msg }}</p></h4>
+{% endif%} -->
+
+<div class=" grid home">
+    {% for key, values in termdict.items %}
+        <div class="card">
+            <div class="card-header">
+                <!-- <h2 class="main-home-h2 card-title" id="id-{{ key }}">{{ key }}</h2>  -->
+                <h2 class="card-title" id="id-{{ key }}"><a class="nav-link" href="{% url 'term:terms' key %}">{{ key }}</a></h2> 
+            </div>
+            <div class="card-body">
+                {% for v in values %}
+                    <p class="main-home-p card-text"><a class="nav-link" href="{% url 'term:term' v.id %}">{{ v.title }}</a></p> 
+                {% endfor%}
+            </div>
+            
+        </div>
+    {% endfor%}
+</div>
+
+{% endblock %}   

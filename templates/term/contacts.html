@@ -1,0 +1,67 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <!-- <h2 class="main-terms-h2">Контакти</h2> -->
+            <h2>Контакти</h2>
+        </div>
+    </div>
+ 
+    <div class="grid card-body">
+        <br>
+        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            В цьому розділі ви можете скористуватися формою зв'язку з адмінистрацією сайта. Після ознайомлення з Вашим повідомлення надамо відповідь на вказану поштову адресу.
+        </p>
+        <br>
+        <!-- <p style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <strong>Пошта:</strong> r.o.antonov@student.csn.khai.edu
+        </p>
+        <br>
+        <p style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+        </p>
+        <br> -->
+
+        <form class="" method="POST" action="">
+            {% csrf_token %}
+            <div class="contacts">
+            <!-- {% if success %}
+            <div class="alert alert-success">
+                <strong>Ваше повідомлення відправлене!</strong>
+            </div>
+            {% else %} -->
+
+                <div>{{ form.message }}</div>
+                
+                <!-- {% if form.message.errors %}
+                <div class="alert alert-danger">
+                    <strong>{{ form.message.errors }}</strong>
+                </div>
+                {% endif %} -->
+
+                <div>{{ form.name }}</div>
+
+                <!-- {% if form.name.errors %}
+                <div class="alert alert-danger">
+                    <strong>{{ form.name.errors }}</strong>
+                </div>
+                {% endif %} -->
+
+                <div>{{ form.email }}</div>
+
+                <!-- {% if form.email.errors %}
+                <div class="alert alert-danger">
+                    <strong>{{ form.email.errors }}</strong>
+                </div>
+                {% endif %} -->
+                <div>
+                    <button class="btn btn-outline-success button-cls" type="submit">Відправити</button>
+                </div>
+            </div>
+                
+            <!-- {% endif %} -->
+        </form>
+    </div>
+</div>
+{% endblock %}  

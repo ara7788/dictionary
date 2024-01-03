@@ -1,0 +1,20 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+{% load static %}
+
+{% for home in homes %}
+<div>
+    <a class="nav-link" href="{% url 'home:home' home.id %}">
+        <div>
+            <h1>{{ home.title }}</h1>
+        </div>
+        <div>
+            <img src="{{  home.image.url }}">
+        </div>
+    </a>
+    <hr>
+</div>
+{% endfor%}
+
+{% endblock %}

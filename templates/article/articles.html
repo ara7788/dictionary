@@ -1,0 +1,37 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="articles card">
+    <div class="card-header">
+        <div class="card-title">
+            <h1>Публікації</h1>
+        </div>
+    </div>
+    
+    
+        {% for article in articles %}
+        
+        <div class="card-body">
+            <!-- <a class="nav-link" href="{% url 'article:article' article.id %}"> -->
+            <a class="nav-link" href="{{ article.get_absolute_url }}">
+                <h2 class="main-articles-p card-title">{{ article.title }}</h2>
+                <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                    Create date: {{ article.cdate }}
+                </p>
+                <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                    {% autoescape off %}
+                        {{ article.description|safe|truncatechars:300 }}
+                    {% endautoescape %}
+                </p>
+            {% if forloop.counter != articles.count %}
+                <hr>
+            {% endif %}
+            </a>
+        </div>
+            
+        {% endfor%}
+    
+</div>
+
+{% endblock %}

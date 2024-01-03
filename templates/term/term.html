@@ -1,0 +1,27 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<div class="grid term card">
+    <!-- <div class="term-title card-header"> -->
+    <div class="card-header">
+        {% autoescape off %}
+        <!-- <h2 class="main-term-h2 card-title">{{ term.title }}</h2> -->
+        <h2 class="card-title">{{ term.title }}</h2>
+        {% endautoescape %}
+    </div>
+    <!-- <div class="term-description card-body"> -->
+        <div class="card-body">
+        {% autoescape off %}
+            <p class="card-text">{{ term.description }}</p>
+        {% endautoescape %}
+    </div>
+    {% if term.sources %}
+    <!-- <div class="term-details"> -->
+    <div class="card-body">
+        {% autoescape off %}
+            <p class="card-text">{{ term.sources }}</p>
+        {% endautoescape %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

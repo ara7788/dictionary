@@ -1,0 +1,30 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="frameworks card">
+    <div class="card-header">
+        <div class="card-title">
+            <h1>Дотичні фреймворки</h1>
+        </div>
+    </div>
+{% for framework in frameworks %}
+    <div class="card-body">
+        <a class="nav-link" href="{% url 'framework:framework' framework.id %}">
+            <h2 class="main-frameworks-h2 card-title">{{ framework.title }}</h2>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата створення: {{ framework.cdate }}</p>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата модифікації: {{ framework.mdate }}</p>
+            <h3>
+                {% autoescape off %}
+                Група: {{ framework.frameworkgroup }}
+                {% endautoescape %}
+            </h3>
+            {% if forloop.counter != frameworks_count %}
+                <hr>
+            {% endif %}
+        </a>
+    </div>
+{% endfor%}
+</div>
+
+{% endblock %}

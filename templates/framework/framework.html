@@ -1,0 +1,72 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="framework card">
+    <!-- <p><a name="_GoBack"></a></p>
+    <br>
+    <hr> -->
+    <div class="framework-title card-header">
+        <h2 class="main-framework-h2 card-title">{{ framework.title }}</h2>
+        <p class="card-text">Дата створення: {{ framework.cdate }}</p>
+        <p class="card-text">Дата модифікації: {{ framework.mdate }}</p>
+        <h4 class="card-title">Група: {{ framework.frameworkgroup }}</h4>
+    </div>
+    <!---->
+
+    <div class="main-fw-ul card-body">
+        <!---->
+        <ul class="nav nav-tabs main-fw-ul">
+                <li class="nav-item">
+                    <a class="nav-link active main-fw-a" num="1" id="tabs-description-1" aria-current="page"  href="#framework-description" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Опис</strong></a>
+                </li>
+                {% if framework.architecture %}
+                <li class="nav-item">
+                    <a class="nav-link main-fw-a" num="1"  id="tabs-architecture-1" aria-current="page" href="#framework-architecture"  style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Архітектура</strong></a>
+                </li>
+                {% endif %}
+                {% if framework.features %}
+                <li class="nav-item">
+                    <a class="nav-link main-fw-a" num="1"  id="tabs-features-1" aria-current="page" href="#framework-features" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Конфігурація</strong></a>
+                </li>
+                {% endif %}
+                {% if framework.sources %}
+                <li class="nav-item ">
+                    <a class="nav-link main-fw-a" num="1"  id="tabs-sources-1" aria-current="page" href="#framework-sources" style="--bs-nav-link-color: #000000a6; --bs-nav-link-hover-color: black;"><strong>Джерела</strong></a>
+                </li>
+                {% endif %}
+            </ul>
+
+    </div>
+    
+    <!---->
+    {% autoescape off %}
+    <div class="card-body">
+        <div class="framework-description" id="tab_description-1">
+            <h2>Опис</h2>
+            <p>&nbsp;</p>
+            <p class="card-text">{{ framework.description }}</p>
+        </div>
+        <div class="framework-architecture"  id="tab_architecture-1" hidden>
+            <h2>Архітектура</h2>
+            <p>&nbsp;</p> 
+            <p class="card-text">{{ framework.architecture }}</p>
+        </div>
+        <div class="framework-features" id="tab_features-1" hidden>
+            <h2>Конфігурація</h2>
+            <p>&nbsp;</p>                
+            <p class="card-text">{{ framework.features }}</p>
+        </div>
+        {% if framework.sources %}
+            <div class="framework-sources" id="tab_sources-1" hidden>
+                <h4>Джерела:</h4>
+                <p>&nbsp;</p>
+                <p class="card-text">{{ framework.sources }}</p>
+            </div>
+        {% endif %}
+    </div>
+    {% endautoescape %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+/* @import url(header-home.css); */
+@import url(header-search.css);
+/* @import url(header-letters.css); */
+
+.header {
+    /* grid-area: header; */
+    display: grid;
+    /* grid-auto-flow: column; */
+    text-align: center;
+    grid-gap: 0px;
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    /* margin-left: 15px; */
+    /* background-color: rgb(96, 143, 204);
+    border: 1px solid rgb(24, 84, 133); */
+    /* color: #fff; */
+}
+
+.header>div:nth-child(1) {
+    justify-self: end;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* .header>div:nth-child(2) {
+    justify-self: end;
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+
+/* .header>div:nth-child(3) { */
+.header>div:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: stretch;
+    /* width: 100%; */
+}

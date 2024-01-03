@@ -1,0 +1,44 @@
+{% extends 'term/base.html' %} {% block content %}
+<!-- <div class=" grid home row row-auto-cols">
+    {% for key, values in termdict.items %}
+    <div class="col letter">
+        <h2 class="main-home-h2" id="id-{{ key }}">{{ key }}</h2> {% for v in values %}
+        <p class="main-home-p"><a class="home-a" href="{% url 'term:term' v.id %}">{{ v.title }}</a></p> {% endfor%}
+    </div>
+    {% endfor%}
+</div> -->
+
+
+    
+<br><h1>Головна ідея проекту</h1>
+<br>
+<hr>
+{% load static %}
+<br>
+<div class=" grid goal">
+    <div>
+        <img width="auto-fit" src="{% static 'term/images/big-data-cloud.png' %}" alt="The main goal of the project is sharing knoledge.">
+    </div>
+    <div>
+        <p style="opacity: 1; transform: translate3d(0px, 0px, 0px); text-align: justify;">
+            Створення інформаційного простору для розширення та поглиблення знань із застосування розподілених система обробки великих даних у реальному часі.
+        </p>
+    </div>
+    <div>
+        <p style="opacity: 1; transform: translate3d(0px, 0px, 0px); text-align: justify;">
+            Big Data (великі дані) – це поєднання структурованих, напівструктурованих та неструктурованих даних, які можуть бути видобуті для отримання інформації та використані в проектах машинного навчання, прогнозного моделювання та інших передових програм аналітики.     
+        </p>
+    </div>
+    <!-- <div>
+        <p style="opacity: 1; transform: translate3d(0px, 0px, 0px); text-align: justify;"></p>
+            Системи, які обробляють і зберігають Big Data, стали загальним компонентом архітектур управління даними в великих організаціях. 
+        </p>
+    </div> -->
+    <div>
+        <p style="opacity: 1; transform: translate3d(0px, 0px, 0px); text-align: justify;">
+            На сторінка цього проекту ви зможете знайти матеріали по обробці великих даних та спорідненній тематиці.
+        </p>
+    </div>
+</div>
+
+{% endblock %}

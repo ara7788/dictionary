@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /private/
+Disallow: /junk/
+Disallow: /rest/
+Disallow: /react/
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://ara7788.pythonanywhere.com/sitemap.xml

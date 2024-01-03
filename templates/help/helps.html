@@ -1,0 +1,40 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <!-- <h2 class="main-terms-h2">Справка</h2> -->
+            <h2 class="">Довідка</h2>
+        </div>
+    </div>
+    <div class="card-body">
+        
+        {% if msg %}
+        <h4 class="terms-h4"><p class="text-info">{{ msg }}</p></h4>
+        {% endif%}
+        
+        <h3 class="card-title">Зміст</h3>
+        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <ul style="list-style-type: circle;">
+                {% for help in helps %}  
+                    <li><a class="nav-link" href="#{{ help.anchor }}">{{ help.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </p>
+
+        {% for help in helps %}
+        <hr>
+        <div class="" id="{{ help.anchor }}">
+            <h4 class="card-title">{{ help.title }}</h4>
+            {% autoescape off %}
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                {{ help.description }}
+            </p>
+            {% endautoescape %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}   

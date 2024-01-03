@@ -1,0 +1,64 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <!-- <h2 class="main-terms-h2">Справка</h2> -->
+            <h2 class="">Довідка</h2>
+        </div>
+    </div>
+
+ 
+<!-- <hr> -->
+    <div class="card-body">
+        {% if msg %}
+        <h4 class="terms-h4"><p class="text-info">{{ msg }}</p></h4>
+        {% endif%}
+        <!-- <hr> -->
+        <h3 class="card-title">Зміст</h3>
+        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+            <ul style="list-style-type: circle;">    
+                <li><a class="nav-link" href="#search-id">Пошук</a></li>
+                <li><a class="nav-link" href="#terms-id">Словник</a></li>
+                <li><a class="nav-link" href="#articles-id">Публікації</a></li>
+            </ul>
+        </p>
+        <hr>
+
+
+        <div class="" id="search-id">
+            <h4 class="card-title">Пошук</h4>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                В цьому розділі ви знайдете інфомацію про можливості пошуку корисної інформації в довідники з питань застосування розподілених система обробки великих даних у
+                реальному часі
+            </p>
+            <!-- <br> -->
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                Для пошуку за відомою назвою можно скористатися полем <b>Пошук</b> та натиснути одноіменну кнопку.
+            </p>
+            <!-- <br> -->
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                Також можливо розшукати термін за відомою частиною слова у <i>верхньому</i> та <i>нижньому регістрах</i> . В цьому випадку будуть знайдені усі слова, що вміщують в собі цей <b>pattern</b> або цю <b>частину</b>.
+            </p>
+            <!-- <br> -->
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                Якщо при пошуку задано назву або частину назви відсутню в довіднику, буде надано інформаційне повідомлення: <b style="color: #0dcaf0;">Термін або частина терміну відсутні у словнику.</b>
+            </p>
+            <br>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                У випадку коли не відома назва терміну, можно виконати фільтрацію без заповннея поля <b>Пошук</b>. Буде надано інформаційне повідомлення: <b style="padding: 1px; color: #198754; background-color: #fff; border: 1px solid #198754 ;">Термін відсутній у словнику</b> та відображені <b>Усі</b> присутні в довіднику терміни.
+            </p>
+        </div>
+        <hr>
+        <div class="" id="terms-id">
+            <h4 class="card-title">Словник</h4>
+        </div>
+        <hr>
+        <div class="" id="articles-id">
+            <h4 class="card-title">Публікації</h4>
+        </div>
+    </div>
+</div>
+{% endblock %}   

@@ -1,0 +1,35 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+<div class="article card">
+    <!-- <br> -->
+    <div class="article-title card-header">
+        <h2 class="main-article-h2 card-title">{{ article.title }}</h2>
+        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата створення: {{ article.cdate }}</p>
+        <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата модифікації: {{ article.cdate }}</p>
+        <!-- <h4 class="card-title">Автор: {{ article.title }}</h4> -->
+    </div>
+    
+    <!-- <hr> -->
+    {% autoescape off %}
+    <div class="card-body">
+        <div class="article-description">
+            {% autoescape off %}
+            <p class="card-text">{{ article.description }}</p>
+            {% endautoescape %}
+        </div>
+        {% if article.sources %}
+        <div class="article-sources">
+            <p>&nbsp;</p>
+            <h4>Джерело:</h4>
+            <p>&nbsp;</p>
+            <p class="card-text">{{ article.sources }}</p>
+            </p>
+        </div>
+        {% endif %}
+    </div>
+    {% endautoescape %}
+</div>
+
+{% endblock %}

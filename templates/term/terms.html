@@ -1,0 +1,29 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <!-- <h2 class="main-terms-h2">{{ char_name }}</h2> -->
+        <h2 class="card-title" style="text-align: center;">{{ char_name }}</h2>
+    </div>
+    <div class="card-body">
+        {% if msg %}
+            <h4 class="terms-h4"><p class="text-info">{{ msg }}</p></h4>
+        {% endif%}
+
+        <div class="grid home card-text">
+            {% for term in terms %}
+                    <!-- <p class="main-home-p"><a class="home-a" href="{% url 'term:term' term.id %}">{{ term.title }}</a></p> -->
+                    <p class="card-text"><a class="nav-link" href="{% url 'term:term' term.id %}">{{ term.title }}</a></p>
+            {% endfor%}
+        </div>
+    </div>
+</div>
+ 
+
+
+
+<!-- <div class="grid home row row-auto-cols"> -->
+
+
+{% endblock %}

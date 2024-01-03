@@ -1,0 +1,34 @@
+.header-home-a{
+    display:inline-block;
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size:1.25rem;
+    line-height:inherit;
+    white-space:nowrap
+}
+
+.header-home-a:focus,.header-home-a:hover{
+    text-decoration:none
+}
+
+.navbar-light .header-home-a{
+    color:rgba(0,0,0,.9)
+}
+
+.navbar-light .header-home-a:focus,.navbar-light .header-home-a:hover{
+    color:rgba(0,0,0,.9)
+}
+
+.navbar-dark .header-home-a{
+    color:#fff
+}
+.navbar-dark .header-home-a:focus,.navbar-dark .header-home-a:hover{
+    color:#fff
+}
+
+.header-home-span{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+

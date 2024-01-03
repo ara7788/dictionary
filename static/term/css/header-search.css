@@ -1,0 +1,156 @@
+.header-search-form{
+    display: grid;
+    /* display:-ms-flexbox!important; */
+    display:flex!important
+}
+
+.header-search-form-control{
+    display:block;
+    width:100%;
+    min-width: 120px;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:.25rem;
+    margin: 0.5%;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce){
+    .header-search-form-control{
+        transition:none
+    }
+}
+
+.header-search-form-control::-ms-expand{
+    background-color:transparent;
+    border:0
+}
+.header-search-form-control:-moz-focusring{
+    color:transparent;
+    text-shadow:0 0 0 #495057
+}
+.header-search-form-control:focus{
+    color:#495057;
+    background-color:#fff;
+    border-color:#80bdff;
+    outline:0;
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+}
+.header-search-form-control::-webkit-input-placeholder{
+    color:#6c757d;
+    opacity:1
+}
+.header-search-form-control::-moz-placeholder{
+    color:#6c757d;
+    opacity:1
+}
+.header-search-form-control:-ms-input-placeholder{
+    color:#6c757d;
+    opacity:1
+}
+.header-search-form-control::-ms-input-placeholder{
+    color:#6c757d;
+    opacity:1
+}
+.header-search-form-control::placeholder{
+    color:#6c757d;
+    opacity:1
+}
+.header-search-form-control:disabled,.header-search-form-control[readonly]{
+    background-color:#e9ecef;
+    opacity:1
+}
+select.header-search-form-control:focus::-ms-value{
+    color:#495057;
+    background-color:#fff
+}
+
+select.header-search-form-control[multiple],select.header-search-form-control[size]{
+    height:auto
+}
+textarea.header-search-form-control{
+    height:auto
+}
+
+.header-search-btn{
+    display:inline-block;
+    font-weight:400;
+    color:#212529;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    background-color:transparent;
+    border:1px solid transparent;
+    margin: 0.5%;
+    padding:.375rem .75rem;
+    font-size:1rem;
+    line-height:1.5;
+    border-radius:.25rem;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+@media (prefers-reduced-motion:reduce){
+    .header-search-btn{
+        transition:none
+    }
+}
+.header-search-btn:hover{
+    color:#212529;
+    text-decoration:none
+}
+.header-search-btn.focus,.header-search-btn:focus{
+    outline:0;
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+}
+.header-search-btn.disabled,.header-search-btn:disabled{
+    opacity:.65
+}
+a.header-search-btn.disabled,fieldset:disabled a.header-search-btn{
+    pointer-events:none
+}
+
+.header-search-btn-outline-primary{
+    color: #0061ad;
+    border-color: #0061ad;
+}
+.header-search-btn-outline-primary:hover{
+    color:#fff;
+    background-color:#0061ad;
+    border-color:#0061ad;
+}
+.header-search-btn-outline-primary.focus,.header-search-btn-outline-primary:focus{
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.5)
+}
+.header-search-btn-outline-primary.disabled,.header-search-btn-outline-primary:disabled{
+    color:#0061ad;
+    background-color:transparent
+}
+.header-search-btn-outline-primary:not(:disabled):not(.disabled).active,.header-search-btn-outline-primary:not(:disabled):not(.disabled):active,.show>.header-search-btn-outline-primary.dropdown-toggle{
+    color:#fff;
+    background-color:#0061ad;
+    border-color:#0061ad;
+}
+.header-search-btn-outline-primary:not(:disabled):not(.disabled).active:focus,.header-search-btn-outline-primary:not(:disabled):not(.disabled):active:focus,.show>.header-search-btn-outline-primary.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.5)
+}
+/* 
+@media (max-width:200px) {
+    .header-search-form-control{
+        width: 100%;
+    }
+} */
+/* @media (min-width:300px) {
+    .header-search-form-control{
+        width: 100%;
+    }
+} */

@@ -1,0 +1,35 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+
+
+
+<div class="lections card">
+    <div class="card-header">
+        <div class="card-title">
+            <h1>Базові знаня</h1>
+        </div>
+    </div>
+
+{% for lection in lections %}
+    <!-- <hr> -->
+    <div class="lections-title card-body">
+        <a class="nav-link" href="{% url 'lection:lection' lection.id %}">
+            <h2 class="main-lection-h2 card-title">{{ lection.title }}</h2>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата створення: {{ lection.cdate }}</p>
+            <p class="card-text" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">Дата модифікації: {{ lection.mdate }}</p>
+            <h3  class="card-title">
+                {% autoescape off %}
+                Тема: {{ lection.title_detail }}
+                {% endautoescape %}
+            </h3>
+            {% if forloop.counter != lections_count %}
+                <hr>
+            {% endif %}
+        </a>
+    </div>
+
+{% endfor%}
+</div>
+
+{% endblock %}

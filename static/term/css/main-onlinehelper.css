@@ -1,0 +1,72 @@
+.main-oh-ul{
+    /* margin-bottom: 1.5rem!important; */
+    /* background-color: #e2f1f8; */
+}
+
+.main-oh-pre, .scala-code{
+    width: 100%; 
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    padding: 9.5px;
+}
+
+.main-oh-a{
+    color: #000000a6;
+    font-weight: 400;
+}
+
+.main-oh-a:focus, .main-oh-a:hover{
+    color: black !important;
+    --bs-nav-link-hover-color: black !important;
+}
+.main-oh-a:visited   {
+    color: #000000a6 !important;
+    --bs-nav-link-color: #000000a6 !important;
+}
+
+.fw-example{
+    display: none!important;
+}
+.fw-active{
+    display: block!important;
+}
+.onlinehelper-title{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: end; */
+    /* align-content: center; */
+    margin: auto;
+    padding: 40px;
+    /* background-color: #e2f1f8; */
+}
+.onlinehelper-logo{
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    
+}
+@media (max-width:600px) {
+    .onlinehelper-logo{
+        display: none;
+    }
+    
+}
+.onlinehelper-img{
+    width: 300px;
+    height: auto;
+}
+.onlinehelper-description, .onlinehelper-features {
+    /* border: 1px solid #ffff00; */
+    /* border-radius: 0.25rem; */
+    margin: auto;
+    padding: 40px;
+    /* background-color: #ffff0013; */
+}
+.onlinehelper-architecture, .onlinehelper-sources {
+    /* border: 1px solid #3300ff; */
+    /* border-radius: 0.25rem; */
+    margin: auto;
+    padding: 40px;
+    /* background-color: #e2f1f8; */
+}

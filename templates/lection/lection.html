@@ -1,0 +1,30 @@
+{% extends 'term/base.html' %}
+
+{% block content %}
+<!-- <br> -->
+<!-- <br> -->
+<div class="lection card">
+
+    <div class="lection-title card-header">
+        <h2 class="main-lection-h2 card-title"><strong>{{ lection.title }}</strong></h2>
+        <p class="card-text">Дата створення: {{ lection.cdate }}</p>
+        <p class="card-text">Дата модифікації: {{ lection.mdate }}</p>
+        <h4 class="card-title">Тема: {{ lection.title_detail }}</h4>
+    </div>
+    <!-- <br> -->
+    <!-- <hr> -->
+    {% autoescape off %}
+    <div class="card-body">
+        <div class="lection-description">
+            <p class="card-text">{{ lection.description }}</p></br>            
+        </div>
+        {% if lection.sources %}    
+            <div class="lection-sources">
+                <p class="card-text">{{ lection.sources }}</p>
+            </div>
+        {% endif %}
+    </div>
+    {% endautoescape %}
+</div>
+
+{% endblock %}

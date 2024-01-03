@@ -1,0 +1,44 @@
+.contacts{
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 15px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contacts>div:nth-child(1) {
+    /* justify-self: end;
+    align-self: center; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.contacts>div:nth-child(2) {
+    /* justify-self: end;
+    align-self: center; */
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.contacts>div:nth-child(3) {
+    /* justify-self: end;
+    align-self: center; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.contacts>div:nth-child(4) {
+    /* justify-self: end;
+    align-self: center; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.textarea-cls{
+    width: 100%;
+}
+.input-cls{
+    width: 100%;
+}
+.button-cls{
+    width: 50%;
+}
